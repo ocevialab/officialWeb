@@ -5047,8 +5047,9 @@ label {
 }
 
 .cs-author_card img {
-  height: 130px;
-  width: 130px;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
   margin-bottom: 22px;
 }
 .cs-author_card h3 {
