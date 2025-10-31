@@ -4472,14 +4472,19 @@ label {
   list-style: none;
 }
 .cs-menu_widget li:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .cs-text_widget p {
   margin: 0;
 }
+.cs-text_widget img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
 .cs-text_widget img + p {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .cs-social_btns.cs-style1 {
