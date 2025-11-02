@@ -4483,6 +4483,9 @@ label {
   height: auto;
   display: block;
 }
+.padding-left-20{
+  padding-left: 20px;
+}
 .cs-text_widget img + p {
   margin-top: 10px;
 }
@@ -9692,4 +9695,8 @@ html .ui-button.ui-state-disabled:active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.padding-bottom-20{
+  padding-bottom:20px;
 }
