@@ -1629,8 +1629,11 @@ label {
 .cs-hover_layer1,
 .cs-hover_layer3 {
   position: relative;
+  /* Your provided transition properties */
   -webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  /* Your provided transform properties */
   -webkit-transform: perspective(600px) translate3d(0, 0, 0);
   transform: perspective(600px) translate3d(0, 0, 0);
 }
@@ -6909,8 +6912,8 @@ label {
   display: block;
 }
 .cs-card.cs-style1:hover {
-  -webkit-filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
-  filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(23, 189, 255, 0.5));
+  filter: drop-shadow(0px 0px 30px rgba(3, 154, 180, 0.473));
 }
 .cs-card.cs-style1 img {
   width: 100%;
@@ -7876,7 +7879,7 @@ label {
   height: 622px;
 }
 .cs-portfolio.cs-style1.cs-size3 {
-  height: 600px;
+  height: 700px;
 }
 
 .cs-portfolio.cs-style2 {
